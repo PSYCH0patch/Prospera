@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "early_game"
+	group: ""
+	icon: "minecraft:iron_ingot"
+	id: "655F877FC5F520CC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You open your eyes to a world that feels... empty. Not barren — the trees grow, the rivers flow. But there is a silence beneath it all, as if something vast once filled this space and no longer does."
+				""
+				"You do not yet know what was lost."
+				""
+				"Begin with what you know. The trees are the same. The stone is the same. The world has moved on, even if its history has not."
+			]
+			icon: "minecraft:oak_log"
+			id: "1000000000000001"
+			rewards: [{
+				id: "3000000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "The silence of a world that has forgotten."
+			tasks: [{
+				id: "24DD538798A23271"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "A Quiet World"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"Your hands shape stone into tools. Simple. Effective. The same gestures humans have made for millennia."
+				""
+				"But somewhere in the back of your mind, a question forms: was this always the limit?"
+				""
+				"The old civilization began here too, with stone and patience, before they reached for forces that could split the sky."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1000000000000002"
+			rewards: [{
+				id: "3000000000000002"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "The oldest gesture of human hands."
+			tasks: [{
+				id: "2000000000000002"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Any Stone Tool"
+				type: "item"
+			}]
+			title: "Stone Remembers"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000002"]
+			description: [
+				"Fire is the oldest technology. The first rebellion against the dark."
+				""
+				"When you light your furnace, something stirs — not in the world, but in the knowledge buried beneath it. The principles of heat and transformation are older than any civilization."
+				""
+				"The old researchers understood this. Their first machines were little more than better furnaces. Yours can be too."
+			]
+			icon: "minecraft:furnace"
+			id: "1000000000000003"
+			rewards: [{
+				id: "3000000000000003"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "The oldest rebellion against the dark."
+			tasks: [{
+				count: 8L
+				id: "5473DFC11CC582FB"
+				item: { Count: 8, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "The First Fire"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000003"]
+			description: [
+				"Iron. The backbone of every civilization that ever rose."
+				""
+				"The old researchers began here too, though their minds were already drifting toward atoms and dimensions. But you know better. Every tower begins with a single ingot. Every network begins with a single connection."
+				""
+				"Stockpile what you need. The real work is about to begin."
+			]
+			icon: "minecraft:iron_block"
+			id: "1000000000000004"
+			rewards: [{
+				id: "3000000000000005"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			subtitle: "The backbone of every civilization."
+			tasks: [{
+				count: 32L
+				id: "0E0FB90E78376E17"
+				item: { Count: 32, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Iron Age"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000004"]
+			description: [
+				"A furnace transforms, but slowly — one ingot at a time, burning fuel that took centuries to form."
+				""
+				"The old civilization found better ways. Their fragmented records speak of machines that crushed, ground, and refined with a speed no furnace could match."
+				""
+				"The knowledge is scattered, but the principles remain: apply force, apply heat, apply pressure. The method is yours to choose."
+			]
+			icon: "minecraft:blast_furnace"
+			id: "1000000000000005"
+			rewards: [{
+				id: "3000000000000006"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "Apply force. Apply heat. Apply pressure."
+			tasks: [{
+				count: 16L
+				icon: "minecraft:iron_ingot"
+				id: "2000000000000005"
+				title: "Iron Dust (or Steel Ingots)"
+				type: "item"
+			}]
+			title: "Beyond the Furnace"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000005"]
+			description: [
+				"Muscle has limits. Fire has limits."
+				""
+				"But the forces of the world — wind, water, steam, pressure, heat differentials — those have no limits if you know how to harness them."
+				""
+				"You do not need to match the old civilization's scale yet. You only need to prove the principle: that energy can be captured, stored, and directed. Produce something that no hand alone could shape."
+			]
+			icon: "minecraft:redstone_block"
+			id: "1000000000000006"
+			rewards: [{
+				id: "3000000000000007"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "Energy captured, stored, directed."
+			tasks: [{
+				count: 4L
+				icon: "minecraft:iron_ingot"
+				id: "2000000000000006"
+				title: "Iron Plates"
+				type: "item"
+			}]
+			title: "The Weight of Power"
+			x: 0.5773809523809703d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1000000000000006"]
+			description: [
+				"Copper carries energy. This was one of the first truths the old researchers discovered, and one of the few that survived intact across the centuries of forgetting."
+				""
+				"Whether you draw it into wires, press it into plates, or cast it into coils — copper is the thread that will eventually connect every machine to every other."
+				""
+				"Begin gathering it now."
+			]
+			icon: "minecraft:copper_ingot"
+			id: "1000000000000008"
+			rewards: [{
+				id: "3000000000000009"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "The thread that connects every machine."
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:copper_ingot"
+					id: "2000000000000008"
+					title: "Copper Ingots"
+					type: "item"
+				}
+				{
+					count: 8L
+					icon: "minecraft:copper_ingot"
+					id: "2000000000000009"
+					title: "Copper Plates or Wires"
+					type: "item"
+				}
+			]
+			title: "Copper Threads"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1000000000000004"]
+			description: [
+				"Steel is the language of industry. Every beam, every gear, every pipe that once held a civilization together was forged from steel."
+				""
+				"The old researchers had seventeen different methods of producing it, each optimized for a different purpose."
+				""
+				"You do not need seventeen. You need one that works. Produce enough to prove that industry can return."
+			]
+			icon: "minecraft:anvil"
+			id: "1000000000000007"
+			rewards: [{
+				id: "3000000000000008"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "The language of industry."
+			tasks: [
+				{
+					count: 32L
+					icon: "minecraft:iron_ingot"
+					id: "2000000000000007"
+					title: "Steel Ingots"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "03B0A67414B524C2"
+					item: { Count: 8, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+			]
+			title: "Steel Resolve"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1000000000000007"]
+			description: [
+				"A single machine is a curiosity. A network is a civilization."
+				""
+				"Power must flow from source to consumer. Materials must move from extraction to processing. The old researchers understood this — their networks once spanned distances you cannot yet imagine."
+				""
+				"Yours does not need to span anything yet. But it must connect. Produce the components that bind machines together into something greater than the sum of their parts."
+			]
+			icon: "minecraft:lightning_rod"
+			id: "1000000000000009"
+			rewards: [{
+				id: "3000000000000010"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "A single machine is a curiosity. A network is a civilization."
+			tasks: [
+				{
+					count: 8L
+					icon: "minecraft:copper_ingot"
+					id: "2000000000000010"
+					title: "Copper Wires"
+					type: "item"
+				}
+				{
+					count: 4L
+					icon: "minecraft:iron_ingot"
+					id: "2000000000000011"
+					title: "Steel Rods"
+					type: "item"
+				}
+			]
+			title: "Connections"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000009"]
+			description: [
+				"A tool extends the hand. A machine extends the mind."
+				""
+				"When you build your first automated process, you cross a threshold the old civilization crossed millennia ago. The difference is that you know what lies at the end of this path. They did not."
+				""
+				"Produce something that requires more than a single machine — a chain of processes working together. The method does not matter. The principle does."
+			]
+			icon: "minecraft:piston"
+			id: "1000000000000010"
+			rewards: [{
+				id: "3000000000000011"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			subtitle: "A tool extends the hand. A machine extends the mind."
+			tasks: [{
+				count: 4L
+				icon: "minecraft:iron_ingot"
+				id: "2000000000000012"
+				title: "Steel Plates (or Gold Dust)"
+				type: "item"
+			}]
+			title: "The First Machine"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1000000000000008"]
+			description: [
+				"What began as a shelter is becoming something else. Machines hum where silence once reigned. Materials flow through processes that did not exist yesterday."
+				""
+				"The space around you is no longer just a place to survive — it is a place to create."
+				""
+				"The old civilization would recognize this moment. It is the moment a workshop becomes a foundation. Prove that your workshop can produce more than one kind of output."
+			]
+			icon: "minecraft:crafting_table"
+			id: "1000000000000011"
+			rewards: [{
+				id: "3000000000000012"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "A shelter becomes a foundation."
+			tasks: [
+				{
+					icon: "minecraft:iron_ingot"
+					id: "2000000000000013"
+					title: "Any Metal Dust"
+					type: "item"
+				}
+				{
+					icon: "minecraft:iron_ingot"
+					id: "2000000000000014"
+					title: "Any Metal Plate"
+					type: "item"
+				}
+				{
+					icon: "minecraft:iron_ingot"
+					id: "2000000000000015"
+					title: "Any Gear"
+					type: "item"
+				}
+				{
+					icon: "minecraft:copper_ingot"
+					id: "2000000000000016"
+					title: "Any Wire"
+					type: "item"
+				}
+				{
+					icon: "minecraft:stick"
+					id: "2000000000000017"
+					title: "Any Rod"
+					type: "item"
+				}
+			]
+			title: "The Workshop Takes Shape"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1000000000000010"
+				"1000000000000011"
+			]
+			description: [
+				"In the process of rebuilding, you have stumbled upon something unexpected: understanding."
+				""
+				"Not just of how machines work, but of why. The principles behind rotation, pressure, heat, and chemistry are not inventions — they are discoveries. You are discovering them again, the same way the old researchers once did."
+				""
+				"But where they saw a single path forward, you see many. This is your advantage. Do not lose it."
+			]
+			icon: "minecraft:knowledge_book"
+			id: "1000000000000012"
+			rewards: [{
+				id: "3000000000000014"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			subtitle: "Not just how. Why."
+			tasks: [{
+				id: "2000000000000018"
+				title: "Reflect on your journey so far."
+				type: "checkmark"
+			}]
+			title: "Knowledge Recovered"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1000000000000011"
+				"1000000000000012"
+			]
+			description: [
+				"From the fragments of forgotten knowledge, you have assembled something that hums with familiar energy."
+				""
+				"It is not a perfect replica of what once was — it is something new, built with your hands and your choices. The first relic of a civilization being understood again."
+				""
+				"&7&o[A damaged recording plays from a fragment of recovered technology. The voice is distorted, barely human, speaking a dialect that should not exist anymore.]&r"
+				""
+				"&f&o\"...the first stage is complete. Rotational fabrication confirmed. The principles hold.\"&r"
+				""
+				"&f&o\"But I must note for the record: we are building this wrong. There are other methods — pressure-based, chemical, atomic — and we are ignoring all of them because the Professor insists on a single path.\"&r"
+				""
+				"&f&o\"I hope we are right. I fear we are not...\"&r"
+				""
+				"&7&o[The recording dissolves into static. The Relic pulses once, then falls silent.]&r"
+				""
+				"The past has spoken. Now it is your turn to answer."
+			]
+			icon: "minecraft:nether_star"
+			id: "1000000000000013"
+			rewards: [{
+				id: "3000000000000015"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Component I of the Architech Key."
+			tasks: [{
+				id: "2000000000000019"
+				title: "Mastery of the Past Recognized"
+				type: "checkmark"
+			}]
+			title: "Relic of the Past"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Survival & Scavenging"]
+	title: "Key of the Architech — Early Game"
+}

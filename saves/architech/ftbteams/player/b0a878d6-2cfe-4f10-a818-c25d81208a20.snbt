@@ -1,0 +1,17 @@
+{
+	id: "b0a878d6-2cfe-4f10-a818-c25d81208a20"
+	type: "player"
+	player_name: "NEXTJ4CK"
+	ranks: {
+		b0a878d6-2cfe-4f10-a818-c25d81208a20: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "NEXTJ4CK"
+		"ftbteams:description": ""
+		"ftbteams:color": "#D4FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

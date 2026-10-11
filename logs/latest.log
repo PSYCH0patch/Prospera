@@ -1,0 +1,525 @@
+[09Oct2026 23:06:04.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, NEXTJ4CK, --version, 1.20.1, --gameDir, C:/Users/KYY/AppData/Roaming/PrismLauncher/instances/prospera-dev-architech1/minecraft, --assetsDir, C:/Users/KYY/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, b0a878d62cfe4f10a818c25d81208a20, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[09Oct2026 23:06:04.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[09Oct2026 23:06:05.397] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[09Oct2026 23:06:05.476] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[09Oct2026 23:06:05.603] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[09Oct2026 23:06:05.687] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/KYY/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[09Oct2026 23:06:05.717] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 6800 XT GL version 4.6.0 Core Profile Context 26.8.1.260806, ATI Technologies Inc.
+[09Oct2026 23:06:06.035] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KYY\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[09Oct2026 23:06:06.037] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KYY\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[09Oct2026 23:06:06.041] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KYY\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[09Oct2026 23:06:06.043] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KYY\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[09Oct2026 23:06:06.225] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mezz_config. Using Mod File: C:\Users\KYY\AppData\Roaming\PrismLauncher\instances\prospera-dev-architech1\minecraft\mods\mezz_config-1.20.1-forge-0.6.8.jar
+[09Oct2026 23:06:06.225] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[09Oct2026 23:06:07.395] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Oct2026 23:06:07.415] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\KYY\AppData\Roaming\PrismLauncher\instances\prospera-dev-architech1\minecraft, --assetsDir, C:\Users\KYY\AppData\Roaming\PrismLauncher\assets, --uuid, b0a878d62cfe4f10a818c25d81208a20, --username, NEXTJ4CK, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[09Oct2026 23:06:08.098] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/EmiUtil (java.lang.ClassNotFoundException: dev.emi.emi.EmiUtil)
+[09Oct2026 23:06:08.100] [main/WARN] [mixin/]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[09Oct2026 23:06:08.102] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[09Oct2026 23:06:08.155] [main/WARN] [mixin/]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero.map.gui.GuiMap)
+[09Oct2026 23:06:08.155] [main/WARN] [mixin/]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapAccessor
+[09Oct2026 23:06:08.156] [main/WARN] [mixin/]: Error loading class: xaero/map/gui/GuiMap (java.lang.ClassNotFoundException: xaero.map.gui.GuiMap)
+[09Oct2026 23:06:08.156] [main/WARN] [mixin/]: @Mixin target xaero.map.gui.GuiMap was not found create.mixins.json:compat.xaeros.XaeroFullscreenMapMixin
+[09Oct2026 23:06:08.194] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09Oct2026 23:06:08.880] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[09Oct2026 23:06:11.786] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 114 milliseconds
+[09Oct2026 23:06:13.245] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KYY/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23186!/assets/.mcassetsroot' uses unexpected schema
+[09Oct2026 23:06:13.245] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KYY/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23186!/data/.mcassetsroot' uses unexpected schema
+[09Oct2026 23:06:13.263] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Oct2026 23:06:14.033] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: NEXTJ4CK
+[09Oct2026 23:06:14.112] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[09Oct2026 23:06:14.139] [Render thread/INFO] [KubeJS/]: Loaded client.properties
+[09Oct2026 23:06:14.422] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+[09Oct2026 23:06:14.499] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[09Oct2026 23:06:14.500] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[09Oct2026 23:06:14.569] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[09Oct2026 23:06:14.572] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[09Oct2026 23:06:14.573] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_nbt
+[09Oct2026 23:06:14.578] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[09Oct2026 23:06:14.581] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[09Oct2026 23:06:14.581] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:sync_teams
+[09Oct2026 23:06:14.584] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_config
+[09Oct2026 23:06:14.584] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:sync_message_history
+[09Oct2026 23:06:14.587] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[09Oct2026 23:06:14.591] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[09Oct2026 23:06:14.594] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[09Oct2026 23:06:14.604] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_settings_response
+[09Oct2026 23:06:14.607] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[09Oct2026 23:06:14.611] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:send_message_response
+[09Oct2026 23:06:14.613] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_presence
+[09Oct2026 23:06:14.617] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[09Oct2026 23:06:14.621] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[09Oct2026 23:06:14.622] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[09Oct2026 23:06:14.622] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[09Oct2026 23:06:14.636] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[09Oct2026 23:06:14.643] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[09Oct2026 23:06:14.659] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[09Oct2026 23:06:14.662] [modloading-worker-0/INFO] [KubeJS/]: Done in 23.86 ms
+[09Oct2026 23:06:14.739] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_quests
+[09Oct2026 23:06:14.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_team_data
+[09Oct2026 23:06:14.743] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_task_progress
+[09Oct2026 23:06:14.745] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[09Oct2026 23:06:14.747] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[09Oct2026 23:06:14.749] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:claim_reward_response
+[09Oct2026 23:06:14.751] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_editing_mode
+[09Oct2026 23:06:14.763] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[09Oct2026 23:06:14.765] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_other_team_data
+[09Oct2026 23:06:14.768] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[09Oct2026 23:06:14.771] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[09Oct2026 23:06:14.777] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_completion_toast
+[09Oct2026 23:06:14.777] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_reward_toast
+[09Oct2026 23:06:14.779] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_item_reward_toast
+[09Oct2026 23:06:14.781] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:custom_reward_toast
+[09Oct2026 23:06:14.784] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[09Oct2026 23:06:14.786] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:toggle_pinned_response
+[09Oct2026 23:06:14.788] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[09Oct2026 23:06:14.791] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:toggle_chapter_pinned_response
+[09Oct2026 23:06:14.793] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[09Oct2026 23:06:14.795] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[09Oct2026 23:06:14.797] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_team_data
+[09Oct2026 23:06:14.799] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[09Oct2026 23:06:14.802] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started
+[09Oct2026 23:06:14.804] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed
+[09Oct2026 23:06:14.807] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started_reset
+[09Oct2026 23:06:14.809] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed_reset
+[09Oct2026 23:06:14.811] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_lock
+[09Oct2026 23:06:14.814] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:reset_reward
+[09Oct2026 23:06:14.816] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:team_data_changed
+[09Oct2026 23:06:14.819] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:task_screen_config_req
+[09Oct2026 23:06:14.821] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[09Oct2026 23:06:14.823] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:give_item_to_player
+[09Oct2026 23:06:14.825] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:reorder_item
+[09Oct2026 23:06:14.828] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[09Oct2026 23:06:14.830] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[09Oct2026 23:06:14.833] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_object_response
+[09Oct2026 23:06:14.835] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[09Oct2026 23:06:14.838] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[09Oct2026 23:06:14.843] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:delete_object_response
+[09Oct2026 23:06:14.846] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[09Oct2026 23:06:14.848] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:edit_object_response
+[09Oct2026 23:06:14.850] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[09Oct2026 23:06:14.852] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_response
+[09Oct2026 23:06:14.855] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[09Oct2026 23:06:14.857] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_quest_response
+[09Oct2026 23:06:14.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[09Oct2026 23:06:14.861] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:change_chapter_group_response
+[09Oct2026 23:06:14.864] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[09Oct2026 23:06:14.866] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_group_response
+[09Oct2026 23:06:14.868] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_reward_blocking
+[09Oct2026 23:06:14.871] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[09Oct2026 23:06:14.874] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[09Oct2026 23:06:14.877] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[09Oct2026 23:06:14.879] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_structures_response
+[09Oct2026 23:06:14.881] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[09Oct2026 23:06:14.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_editor_permission
+[09Oct2026 23:06:14.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:open_quest_book
+[09Oct2026 23:06:14.887] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:clear_display_cache
+[09Oct2026 23:06:14.891] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:reorder_item_response
+[09Oct2026 23:06:14.894] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:clear_repeat_cooldown
+[09Oct2026 23:06:15.063] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[09Oct2026 23:06:15.067] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[09Oct2026 23:06:15.072] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[09Oct2026 23:06:15.165] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.101 s
+[09Oct2026 23:06:15.229] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[09Oct2026 23:06:15.235] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.369 milliseconds
+[09Oct2026 23:06:15.765] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[09Oct2026 23:06:15.767] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.061 s
+[09Oct2026 23:06:15.772] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.603 s with 0 errors and 0 warnings
+[09Oct2026 23:06:15.827] [modloading-worker-0/INFO] [KubeJS Client/]: example.js#5: Hello, World! (Loaded client scripts)
+[09Oct2026 23:06:15.827] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:example.js in 0.001 s
+[09Oct2026 23:06:15.828] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.014 s with 0 errors and 0 warnings
+[09Oct2026 23:06:15.856] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[09Oct2026 23:06:15.857] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:send_data_from_server
+[09Oct2026 23:06:15.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:paint
+[09Oct2026 23:06:15.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:add_stage
+[09Oct2026 23:06:15.860] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:remove_stage
+[09Oct2026 23:06:15.860] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:sync_stages
+[09Oct2026 23:06:15.862] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[09Oct2026 23:06:15.864] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:toast
+[09Oct2026 23:06:15.866] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[09Oct2026 23:06:15.868] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_server_errors
+[09Oct2026 23:06:15.869] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_client_errors
+[09Oct2026 23:06:16.039] [modloading-worker-0/INFO] [pneumaticcraft/]: Thirdparty integration activated for [immersiveengineering,jei,mekanism,patchouli,create]
+[09Oct2026 23:06:19.269] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, KubeJS Resource Pack [assets]
+[09Oct2026 23:06:19.331] [Worker-Main-5/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[09Oct2026 23:06:19.360] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[09Oct2026 23:06:19.378] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Version 10.4.16 initializing...
+[09Oct2026 23:06:19.399] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[09Oct2026 23:06:19.402] [Worker-Main-7/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[09Oct2026 23:06:19.486] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[09Oct2026 23:06:19.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Starting version check at https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/1.20.1/release_info.json
+[09Oct2026 23:06:19.582] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 2: 1
+[09Oct2026 23:06:19.583] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 3: 1
+[09Oct2026 23:06:19.583] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 4: 2
+[09Oct2026 23:06:19.583] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 5: 2
+[09Oct2026 23:06:19.583] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 6: 3
+[09Oct2026 23:06:19.583] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite immersiveengineering:item/metal_ingot_uranium frame 7: 3
+[09Oct2026 23:06:19.610] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[09Oct2026 23:06:19.610] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[09Oct2026 23:06:19.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Found status: AHEAD Current: 6.0.23+mc1.20.1 Target: null
+[09Oct2026 23:06:19.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
+[09Oct2026 23:06:19.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: AHEAD Current: 1.20.1-10.2.0-183 Target: null
+[09Oct2026 23:06:19.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Oct2026 23:06:20.153] [Worker-Main-11/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[09Oct2026 23:06:20.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[09Oct2026 23:06:22.086] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model createaddition:small_light_connector#facing=up,mode=none,powered=false,rotation=y_clockwise_90,variant=girder:
+    minecraft:textures/atlas/blocks.png:create:block/chute_block
+[09Oct2026 23:06:22.256] [Worker-Main-8/INFO] [pneumaticcraft/]: Sending IMC messages.
+[09Oct2026 23:06:22.410] [Worker-Main-9/INFO] [PonderIndex/]: Registering Ponder Scenes took 87.13 ms
+[09Oct2026 23:06:22.414] [Worker-Main-9/INFO] [PonderIndex/]: Registering Ponder Tags took 3.831 ms
+[09Oct2026 23:06:23.674] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[09Oct2026 23:06:23.674] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09Oct2026 23:06:23.702] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
+[09Oct2026 23:06:23.703] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[09Oct2026 23:06:23.807] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[09Oct2026 23:06:23.845] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09Oct2026 23:06:23.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Oct2026 23:06:23.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Oct2026 23:06:23.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09Oct2026 23:06:23.850] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09Oct2026 23:06:23.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09Oct2026 23:06:23.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09Oct2026 23:06:23.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Oct2026 23:06:24.003] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09Oct2026 23:06:24.075] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Oct2026 23:06:24.076] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09Oct2026 23:06:24.076] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09Oct2026 23:06:24.114] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 31.814 ms
+[09Oct2026 23:06:24.139] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 235 jsons
+[09Oct2026 23:06:24.146] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 56 train hat configurations.
+[09Oct2026 23:06:24.146] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[09Oct2026 23:06:24.150] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[09Oct2026 23:06:29.432] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[09Oct2026 23:06:29.434] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[09Oct2026 23:06:29.451] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+ftbxmodcompat (version 2.1.3 -> MISSING)
+Things may not work well.
+[09Oct2026 23:06:30.364] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:ftbxmodcompat
+[09Oct2026 23:06:30.385] [Render thread/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[09Oct2026 23:06:30.385] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.0 s
+[09Oct2026 23:06:30.385] [Render thread/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[09Oct2026 23:06:30.386] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[09Oct2026 23:06:31.663] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.675] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:magmatic_stone: mod not loaded
+[09Oct2026 23:06:31.675] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/magmatic_stone as it's serializer returned null
+[09Oct2026 23:06:31.681] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_plate recipe (createaddition:rolling/aluminum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.703] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.706] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_refined_fuel as it's serializer returned null
+[09Oct2026 23:06:31.711] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.712] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_campfire: mod not loaded
+[09Oct2026 23:06:31.712] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/cryptic_campfire as it's serializer returned null
+[09Oct2026 23:06:31.713] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.714] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:ancient_emerald_ice: mod not loaded
+[09Oct2026 23:06:31.714] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/ancient_emerald_ice as it's serializer returned null
+[09Oct2026 23:06:31.714] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:boric_campfire: mod not loaded
+[09Oct2026 23:06:31.714] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/boric_campfire as it's serializer returned null
+[09Oct2026 23:06:31.717] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block occultism:spirit_fire: mod not loaded
+[09Oct2026 23:06:31.717] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/occultism/spirit_fire as it's serializer returned null
+[09Oct2026 23:06:31.717] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block powah:dry_ice: mod not loaded
+[09Oct2026 23:06:31.717] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/powah/dry_ice as it's serializer returned null
+[09Oct2026 23:06:31.719] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:dense_emerald_ice: mod not loaded
+[09Oct2026 23:06:31.719] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/dense_emerald_ice as it's serializer returned null
+[09Oct2026 23:06:31.733] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.734] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_plate recipe (createaddition:rolling/steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.735] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.736] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:brazier: mod not loaded
+[09Oct2026 23:06:31.736] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/decorative_blocks/brazier as it's serializer returned null
+[09Oct2026 23:06:31.737] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:soul_brazier: mod not loaded
+[09Oct2026 23:06:31.737] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/decorative_blocks/soul_brazier as it's serializer returned null
+[09Oct2026 23:06:31.740] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_tree_oil as it's serializer returned null
+[09Oct2026 23:06:31.742] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:drone_interface as it's serializer returned null
+[09Oct2026 23:06:31.747] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block natura:nether_heat_sand: mod not loaded
+[09Oct2026 23:06:31.747] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/natura/nether_heat_sand as it's serializer returned null
+[09Oct2026 23:06:31.750] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block valhelsia_structures:brazier: mod not loaded
+[09Oct2026 23:06:31.750] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/valhelsia_structures/brazier as it's serializer returned null
+[09Oct2026 23:06:31.753] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_ingot recipe (createaddition:rolling/steel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.764] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.766] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_ingot recipe (createaddition:rolling/aluminum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.774] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_creosote as it's serializer returned null
+[09Oct2026 23:06:31.777] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.779] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:emerald_ice: mod not loaded
+[09Oct2026 23:06:31.779] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/emerald_ice as it's serializer returned null
+[09Oct2026 23:06:31.779] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.783] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:one_probe_crafting as it's serializer returned null
+[09Oct2026 23:06:31.783] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/lead_plate recipe (createaddition:rolling/lead_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.784] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_magma_block: mod not loaded
+[09Oct2026 23:06:31.784] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/cryptic_magma as it's serializer returned null
+[09Oct2026 23:06:31.784] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block botania:blaze_block: mod not loaded
+[09Oct2026 23:06:31.784] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/botania/blaze_block as it's serializer returned null
+[09Oct2026 23:06:31.795] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:permafrost: mod not loaded
+[09Oct2026 23:06:31.795] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/quark/permafrost as it's serializer returned null
+[09Oct2026 23:06:31.796] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:blaze_lantern: mod not loaded
+[09Oct2026 23:06:31.796] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/quark/blaze_lantern as it's serializer returned null
+[09Oct2026 23:06:31.797] [Render thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2026 23:06:31.804] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 82 recipes
+[09Oct2026 23:06:31.898] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3535 advancements
+[09Oct2026 23:06:32.765] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[09Oct2026 23:06:32.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Oct2026 23:06:32.908] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[09Oct2026 23:06:33.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Oct2026 23:06:33.736] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[09Oct2026 23:06:35.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2026 23:06:35.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2026 23:06:35.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2026 23:06:35.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2026 23:06:35.750] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[09Oct2026 23:06:35.942] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Oct2026 23:06:35.944] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2198 ms
+[09Oct2026 23:06:35.945] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\KYY\AppData\Roaming\PrismLauncher\instances\prospera-dev-architech1\minecraft\config\ftbquests\quests
+[09Oct2026 23:06:35.966] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 1 chapters, 13 quests, 0 reward tables
+[09Oct2026 23:06:35.997] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 free_runners_armored, missing knowledge for {1 free_runners=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_boots, missing knowledge for {1 leather_boots=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_leggings, missing knowledge for {1 leather_leggings=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_helmet, missing knowledge for {1 leather_helmet=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 pneumatic_leggings, missing knowledge for {1 compressed_iron_leggings=1.0}
+[09Oct2026 23:06:36.050] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 30 milliseconds
+[09Oct2026 23:06:36.176] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[09Oct2026 23:06:36.178] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[09Oct2026 23:06:36.241] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[09Oct2026 23:06:37.317] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[09Oct2026 23:06:37.363] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NEXTJ4CK[local:E:3136edb4] logged in with entity id 157 at (-188.02877710305683, 96.53670209145908, -278.5719929519268)
+[09Oct2026 23:06:37.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NEXTJ4CK joined the game
+[09Oct2026 23:06:37.541] [Netty Local Client IO #0/INFO] [FTB Quests/]: Read 8559 bytes, 47 objects
+[09Oct2026 23:06:37.592] [Render thread/INFO] [flywheel/]: Started 6 worker threads
+[09Oct2026 23:06:38.020] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[09Oct2026 23:06:38.020] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI...
+[09Oct2026 23:06:38.021] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI took 827.5 microseconds
+[09Oct2026 23:06:38.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[09Oct2026 23:06:38.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 9.744 milliseconds
+[09Oct2026 23:06:38.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[09Oct2026 23:06:38.041] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.913 milliseconds
+[09Oct2026 23:06:38.043] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[09Oct2026 23:06:38.119] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[09Oct2026 23:06:38.235] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 192.0 milliseconds
+[09Oct2026 23:06:38.238] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 194.9 milliseconds
+[09Oct2026 23:06:38.238] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[09Oct2026 23:06:38.239] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 1.089 milliseconds
+[09Oct2026 23:06:38.239] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[09Oct2026 23:06:38.239] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 339.2 microseconds
+[09Oct2026 23:06:38.254] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[09Oct2026 23:06:38.255] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 537.4 microseconds
+[09Oct2026 23:06:38.271] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[09Oct2026 23:06:38.298] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 26.62 milliseconds
+[09Oct2026 23:06:38.312] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: pneumaticcraft:default took 13.28 milliseconds
+[09Oct2026 23:06:38.356] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 35.63 milliseconds
+[09Oct2026 23:06:38.379] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 22.24 milliseconds
+[09Oct2026 23:06:38.388] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 116.0 milliseconds
+[09Oct2026 23:06:38.389] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[09Oct2026 23:06:38.392] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.384 milliseconds
+[09Oct2026 23:06:38.393] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[09Oct2026 23:06:38.398] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 5.089 milliseconds
+[09Oct2026 23:06:38.398] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[09Oct2026 23:06:38.417] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 18.78 milliseconds
+[09Oct2026 23:06:38.419] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[09Oct2026 23:06:38.422] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added typed recipe manager plugin: class mezz.jei.library.plugins.vanilla.crafting.FireworkStarRecipeManagerPlugin
+[09Oct2026 23:06:38.423] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added typed recipe manager plugin: class mezz.jei.library.plugins.vanilla.crafting.FireworkRocketRecipeManagerPlugin
+[09Oct2026 23:06:38.423] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 3.894 milliseconds
+[09Oct2026 23:06:38.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[09Oct2026 23:06:38.991] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 567.7 milliseconds
+[09Oct2026 23:06:39.023] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: pneumaticcraft:default took 31.29 milliseconds
+[09Oct2026 23:06:39.023] [Render thread/INFO] [immersiveengineering/]: Adding recipes to JEI!!
+[09Oct2026 23:06:39.061] [Render thread/INFO] [immersiveengineering/]: Recipes for potions: minecraft:slow_falling, minecraft:long_night_vision, minecraft:strong_slowness, minecraft:strong_regeneration, minecraft:strong_turtle_master, minecraft:regeneration, minecraft:strong_healing, minecraft:awkward, minecraft:strong_leaping, minecraft:long_slowness, minecraft:long_poison, minecraft:water, minecraft:long_slow_falling, minecraft:long_swiftness, minecraft:long_fire_resistance, minecraft:long_leaping, minecraft:strength, minecraft:night_vision, minecraft:harming, minecraft:long_weakness, minecraft:fire_resistance, minecraft:slowness, minecraft:leaping, minecraft:poison, minecraft:strong_poison, minecraft:invisibility, minecraft:long_turtle_master, minecraft:water_breathing, minecraft:weakness, minecraft:turtle_master, minecraft:strong_swiftness, minecraft:long_invisibility, minecraft:long_water_breathing, minecraft:healing, minecraft:swiftness, minecraft:strong_strength, minecraft:long_regeneration, minecraft:long_strength, minecraft:strong_harming
+[09Oct2026 23:06:39.070] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: immersiveengineering:main took 46.68 milliseconds
+[09Oct2026 23:06:39.213] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 143.6 milliseconds
+[09Oct2026 23:06:39.249] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 35.62 milliseconds
+[09Oct2026 23:06:39.302] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 48.90 milliseconds
+[09Oct2026 23:06:39.302] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 878.8 milliseconds
+[09Oct2026 23:06:39.313] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[09Oct2026 23:06:39.321] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 7.687 milliseconds
+[09Oct2026 23:06:39.326] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[09Oct2026 23:06:39.331] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[09Oct2026 23:06:39.344] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 12.04 milliseconds
+[09Oct2026 23:06:39.346] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search...
+[09Oct2026 23:06:39.347] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search took 355.3 microseconds
+[09Oct2026 23:06:39.349] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[09Oct2026 23:06:39.351] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[09Oct2026 23:06:39.354] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[09Oct2026 23:06:39.384] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 29.70 milliseconds
+[09Oct2026 23:06:39.384] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[09Oct2026 23:06:39.579] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3850 ingredients
+[09Oct2026 23:06:39.608] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3850 ingredients
+[09Oct2026 23:06:39.609] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 225.1 milliseconds
+[09Oct2026 23:06:39.891] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 541.4 milliseconds
+[09Oct2026 23:06:39.891] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 542.2 milliseconds
+[09Oct2026 23:06:39.892] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 565.0 milliseconds
+[09Oct2026 23:06:39.892] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[09Oct2026 23:06:39.893] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.133 milliseconds
+[09Oct2026 23:06:39.893] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.874 seconds
+[09Oct2026 23:06:40.339] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
+[09Oct2026 23:06:40.343] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 239.9 ?s
+[09Oct2026 23:06:40.347] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 223.4 ?s
+[09Oct2026 23:06:40.383] [Render thread/WARN] [patchouli/]: Invalid icon item stack: Unknown item ID: pneumaticcraft:pneumatic_generator
+[09Oct2026 23:06:40.385] [Render thread/WARN] [patchouli/]: Invalid icon item stack: Unknown item ID: pneumaticcraft:electric_compressor
+[09Oct2026 23:06:40.387] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 265.1 ?s
+[09Oct2026 23:06:40.424] [Render thread/WARN] [patchouli/]: Recipe pneumaticcraft:radiation_shielding_upgrade (of type minecraft:crafting) not found
+[09Oct2026 23:07:19.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NEXTJ4CK: Set own game mode to Survival Mode]
+[09Oct2026 23:07:19.840] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[09Oct2026 23:07:24.208] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
+[09Oct2026 23:07:39.364] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
+[09Oct2026 23:08:16.726] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6349?s!
+[09Oct2026 23:08:29.551] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:08:29.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:08:29.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:08:29.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:08:32.080] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5678?s!
+[09Oct2026 23:08:36.666] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6833?s!
+[09Oct2026 23:08:37.441] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 2764?s!
+[09Oct2026 23:08:39.465] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 8150?s!
+[09Oct2026 23:08:40.210] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 7092?s!
+[09Oct2026 23:09:00.981] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 1114?s!
+[09Oct2026 23:09:02.410] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5798?s!
+[09Oct2026 23:09:03.163] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5619?s!
+[09Oct2026 23:09:04.510] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6657?s!
+[09Oct2026 23:09:05.267] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 8017?s!
+[09Oct2026 23:09:06.158] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 82?s!
+[09Oct2026 23:09:07.259] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 8220?s!
+[09Oct2026 23:09:07.910] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6426?s!
+[09Oct2026 23:09:08.124] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 42?s!
+[09Oct2026 23:09:08.698] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 7885?s!
+[09Oct2026 23:09:48.312] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6194?s!
+[09Oct2026 23:09:50.051] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5192?s!
+[09Oct2026 23:10:01.870] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 4087?s!
+[09Oct2026 23:10:05.700] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:10:05.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:10:05.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:10:05.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:10:15.697] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 4634?s!
+[09Oct2026 23:10:50.751] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:10:50.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:10:50.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:10:50.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:11:50.101] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:11:50.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:11:50.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:11:50.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:11:52.301] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:11:52.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:11:52.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:11:52.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:12:30.551] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:12:30.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:12:30.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:12:30.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:13:22.582] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 3670?s!
+[09Oct2026 23:13:24.184] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 892?s!
+[09Oct2026 23:13:24.802] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 64?s!
+[09Oct2026 23:13:25.358] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 4869?s!
+[09Oct2026 23:13:27.008] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 1059?s!
+[09Oct2026 23:13:27.502] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 16?s!
+[09Oct2026 23:13:28.502] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 3808?s!
+[09Oct2026 23:14:00.101] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:14:00.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:14:00.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:14:00.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:14:03.902] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:14:03.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:14:03.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:14:03.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:14:12.599] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 3874?s!
+[09Oct2026 23:14:13.909] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 987?s!
+[09Oct2026 23:14:51.701] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:14:51.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:14:51.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:14:51.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:16:28.862] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 29 advancements
+[09Oct2026 23:16:31.957] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 33 advancements
+[09Oct2026 23:16:55.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[09Oct2026 23:17:01.859] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 51 advancements
+[09Oct2026 23:17:22.360] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 52 advancements
+[09Oct2026 23:17:49.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NEXTJ4CK: Set the time to 1000]
+[09Oct2026 23:17:49.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[09Oct2026 23:18:12.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NEXTJ4CK: Set own game mode to Creative Mode]
+[09Oct2026 23:18:12.241] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[09Oct2026 23:18:40.857] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 60 advancements
+[09Oct2026 23:18:56.960] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 62 advancements
+[09Oct2026 23:18:57.162] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 76 advancements
+[09Oct2026 23:18:57.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NEXTJ4CK has made the advancement [Acquire Hardware]
+[09Oct2026 23:18:57.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] NEXTJ4CK has made the advancement [Acquire Hardware]
+[09Oct2026 23:18:57.311] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 123 advancements
+[09Oct2026 23:18:57.509] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 125 advancements
+[09Oct2026 23:18:58.106] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 127 advancements
+[09Oct2026 23:19:37.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NEXTJ4CK: Set own game mode to Survival Mode]
+[09Oct2026 23:19:37.827] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[09Oct2026 23:19:40.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NEXTJ4CK has made the advancement [Stone Age]
+[09Oct2026 23:19:40.662] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] NEXTJ4CK has made the advancement [Stone Age]
+[09Oct2026 23:19:40.710] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 141 advancements
+[09Oct2026 23:20:33.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NEXTJ4CK has made the advancement [Getting an Upgrade]
+[09Oct2026 23:20:33.702] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] NEXTJ4CK has made the advancement [Getting an Upgrade]
+[09Oct2026 23:20:33.708] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 142 advancements
+[09Oct2026 23:21:33.201] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:21:33.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:21:33.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:21:33.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:21:36.252] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:21:36.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:21:36.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:21:36.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:22:27.686] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 906?s!
+[09Oct2026 23:22:29.909] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5260?s!
+[09Oct2026 23:22:30.209] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6667?s!
+[09Oct2026 23:23:15.301] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:23:15.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:23:15.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:23:15.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:23:40.301] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:23:40.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:23:40.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:23:40.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:24:12.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NEXTJ4CK: Gave 64 [Iron Ingot] to NEXTJ4CK]
+[09Oct2026 23:24:12.029] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 64 [Iron Ingot] to NEXTJ4CK
+[09Oct2026 23:24:25.986] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 892?s!
+[09Oct2026 23:24:27.886] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5860?s!
+[09Oct2026 23:24:28.386] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5340?s!
+[09Oct2026 23:24:28.683] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6208?s!
+[09Oct2026 23:24:29.135] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5606?s!
+[09Oct2026 23:24:50.952] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:24:50.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:24:50.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:24:50.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:24:52.961] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 803?s!
+[09Oct2026 23:24:54.852] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 6114?s!
+[09Oct2026 23:24:55.243] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5688?s!
+[09Oct2026 23:25:13.200] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:25:13.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:25:13.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:25:13.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:25:40.405] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 847?s!
+[09Oct2026 23:25:41.543] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5531?s!
+[09Oct2026 23:25:42.292] [FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list in 5222?s!
+[09Oct2026 23:26:51.201] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:26:51.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:26:51.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:26:51.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:26:55.151] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:26:55.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:26:55.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:26:55.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:26:59.752] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:26:59.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:26:59.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:26:59.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:32:50.902] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Oct2026 23:32:50.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:32:50.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:32:50.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:32:51.554] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[09Oct2026 23:32:51.554] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[09Oct2026 23:32:51.555] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[09Oct2026 23:32:51.557] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 2.686 milliseconds
+[09Oct2026 23:32:51.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NEXTJ4CK lost connection: Disconnected
+[09Oct2026 23:32:51.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NEXTJ4CK left the game
+[09Oct2026 23:32:51.613] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[09Oct2026 23:32:51.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Oct2026 23:32:51.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Oct2026 23:32:51.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Oct2026 23:32:52.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:overworld
+[09Oct2026 23:32:52.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_end
+[09Oct2026 23:32:52.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[architech]'/minecraft:the_nether
+[09Oct2026 23:32:52.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (architech): All chunks are saved
+[09Oct2026 23:32:52.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Oct2026 23:32:52.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Oct2026 23:32:52.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Oct2026 23:32:54.359] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
